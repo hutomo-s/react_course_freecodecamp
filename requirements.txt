@@ -1,0 +1,12 @@
+ 367  curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+  368  sudo bash nodesource_setup.sh
+  369  sudo apt-get install gcc g++ make
+  370  sudo apt install nodejs
+  371  node -v
+
+npm --version
+
+# https://github.com/facebook/create-react-app
+npx create-react-app tutorial
+cd tutorial
+npm start
